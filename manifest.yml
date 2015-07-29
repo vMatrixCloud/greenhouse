@@ -2,7 +2,7 @@
 applications: 
 - name: vmatrix-greenhouse
   mem: 512M
-  path: target/mysql-java-1.0
+  path: target/greenhouse-1.0.0.BUILD-SNAPSHOT.war
   services:
     ${name}-db:
       type: mysql
